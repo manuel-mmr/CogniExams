@@ -13,8 +13,9 @@
     .module('home')
     .controller('HomeCtrl', HomeCtrl);
 
-  function HomeCtrl($scope) {
+  function HomeCtrl($scope, $state) {
     $scope.home = {};
     $scope.home.ctrlName = 'HomeCtrl';
+    
   }
 }());
